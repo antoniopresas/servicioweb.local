@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio2.xsl"?>
+<usuarios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio2.xsd">
+    <usuario id="1">
+        <nombre>María</nombre>
+        <apellido>Boddie</apellido>
+        <direccion ciudad="Lugo">Calle Pedro Mar 12
+			<pais>España</pais>
+		</direccion>
+        <contacto preferencia="url">
+            <telefono>44221234</telefono>
+            <url>http://monnie.ejemplo.com</url>
+            <email>monnie@ejemplo.com</email>
+        </contacto>
+    </usuario>
+    <usuario id="2">
+        <nombre>Alejandro</nombre>
+        <apellido>Gonzalez</apellido>
+        <direccion ciudad="Santiago">Calle Luis Angel 22
+			<pais>España</pais>
+		</direccion>
+        <contacto preferencia="email">
+            <telefono>44224664</telefono>
+            <url>http://ted.ejemplo.com</url>
+            <email>ted@ejemplo.com</email>
+        </contacto>
+    </usuario>
+</usuarios>
